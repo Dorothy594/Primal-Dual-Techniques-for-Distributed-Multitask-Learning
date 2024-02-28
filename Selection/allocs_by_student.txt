@@ -1,0 +1,191 @@
+Student                 Email              Supervisor                PID     Title
+Adaboh,M.           (C1)	martins.adaboh23@imperial.ac.uk         	Scarciotti,G.            	1803155	[EXTERNAL] MathWorks project 2: Energy Management for a 2-Motor BEV using Model-Predictive Control
+Ai,Z.               (V1)	zeyang.ai23@imperial.ac.uk              	Dai,W.                   	1803079	Interpretable Learning via Proximal Optimization
+Alya,y.             (C1)	yasmina.alya23@imperial.ac.uk           	Parisini,T.              	1803357	Distributed State and Parameter Estimation for Large Scale Systems 
+Auguste,T.          (V1)	thomas.auguste23@imperial.ac.uk         	Vlaski,S.                	1803049	Data Mining for Single-Cell RNA Sequencing in Liver Disease
+Barakat,B.          (S1)	bassem.barakat23@imperial.ac.uk         	Dragotti,P.L.            	1803434	Implicit Neural Representation for signal reconstruction (2)
+Burba,A.            (V1)	ally.burba23@imperial.ac.uk             	Demiris,Y.K.             	1803327	Social Navigation for an Intelligent Robot Wheelchair
+CAO,D.              (S1)	daran.cao23@imperial.ac.uk              	Sanei,S.                 	1803216	Modelling hand movement from multichannel electromyograms (EMGs)
+CUI,P.              (C1)	peng.cui23@imperial.ac.uk               	Angeli,D.                	1803268	Economic Model Predictive Control of Wind Turbines
+Cachia,J.           (S1)	jeremy.cachia23@imperial.ac.uk          	Qin,C.                   	1803035	Explainable machine learning for lung cancer nodule classification
+Cao,P.              (C1)	pinyu.cao23@imperial.ac.uk              	Kerrigan,E.C.            	1802878	Computer Vision, Sensor Fusion, and State Estimation for a Parrot Minidrone
+Cao,Z.              (C1)	zebin_cao@126.com                       	Angeli,D.                	1803271	Learning to control a pendulum with data-driven predictive control
+Chaubey,N.          (A1)	neha.chaubey23@imperial.ac.uk           	Cheung,P.Y.K.            	1803400	Processor-in-Memory (PIM) Architectures
+Chen,L.             (S1)	lei.chen23@imperial.ac.uk               	Ling,C.                  	1803244	Post-quantum signatures with applications to blockchains
+Chen,L.             (V1)	lijun.chen23@imperial.ac.uk             	Wang,Sen                 	1803234	Vision-Enabled Underwater Robots for Autonomous Operations
+Chen,M.             (S1)	mo.chen23@imperial.ac.uk                	Manikas,A.               	1803349	Experimental MIMO radar for localisation and tracking of multi-UAVs
+Chen,S.             (V1)	steven.chen23@imperial.ac.uk            	Wang,Sen                 	1802963	Mapping Imperial College in a Day
+Chen,T.             (S1)	tianyi.chen23@imperial.ac.uk            	Pike,W.T.                	1803006	Real-Time Earthquake Detection Utilising Polarization Analysis and Signal-to-Noise Ratio
+Chen,W.             (C1)	wanqi.chen23@imperial.ac.uk             	Spyrou,E.                	1803320	Modeling approaches for long duration storage
+Chen,X.             (Q1)	xiaozheng.chen23@imperial.ac.uk         	Gu,Y.                    	1803429	Technology for protection of inverters and fault recovery
+Chen,X.             (S1)	xinyi.chen23@imperial.ac.uk             	Bhandari,A.              	1803293	Audio Source Separation from Modulo Samples
+Chen,Y.             (Q1)	yifei.chen123@imperial.ac.uk            	Clemow,P.R.              	1802903	EV motor control simulation hardware - A dyno for EV motor development with closed loop EV dynamics simulation
+Chen,Y.             (S1)	yuanqingtian.chen23@imperial.ac.uk      	Bhandari,A.              	1803300	Image Feature Extraction in Computer Vision with Folded Images
+Chu,S.              (Q1)	shunan.chu23@imperial.ac.uk             	Pal,B.C.                 	1802931	Impact of FRT capability on DGs penetration level
+Connolly,J.         (Q1)	jack.connolly23@imperial.ac.uk          	Mitcheson,P.D.           	1803067	Capacitive Power Transfer
+Costelloe,D.        (V1)	dara.costelloe23@imperial.ac.uk         	Abu Ebayyeh,A.           	1803311	Machine Learning for Industrial Applications
+DONG,Z.             (S1)	zijing.dong23@imperial.ac.uk            	Li,G.                    	1803259	Deep learning-enabled ISAC System Design
+Dong,H.             (S1)	claudio.dong23@imperial.ac.uk           	Clerckx,B.               	1803203	Rate-Splitting Multiple Access for 6G: Design and Simulations 
+Dong,M.             (C1)	mingshuo.dong23@imperial.ac.uk          	Parisini,T.              	1803352	Model Predictive Control under Temporal Logic Constraints
+Du,B.               (S1)	borui.du23@imperial.ac.uk               	Clerckx,B.               	1803233	Waveform Design and Optimization for OTFS Signal in ISAC
+Du,L.               (C1)	lanxin.du23@imperial.ac.uk              	Teng,F.                  	1802999	Techno-economic Feasibility of Base Stations Energy Consumption Flexibility and Backup Battery to Provide Services in Electricity Markets
+El Chmouri,M.       (C1)	mo.el-chmouri23@imperial.ac.uk          	Chaudhuri,B.             	1803248	Robust control of grid-interface inverters of renewables
+FU,Z.               (S1)	zhongyao.fu23@imperial.ac.uk            	Stathaki,P.T.            	1803368	Automated Crop Detection from Aerial Images Using Machine Learning
+Feng,X.             (S1)	xiaopeng.feng23@imperial.ac.uk          	Manikas,A.               	1803345	Array Uncertainties and Mobile Localisation using both Small and Large Aperture Antenna Array
+Forys,P.            (A1)	pg.forys@gmail.com                      	Zhao,Aaron               	1803288	Hardware Acceleration of Swin-Transformers
+Fu,J.               (A1)	jikun.fu23@imperial.ac.uk               	Papavassiliou,C.         	1803034	AC capacitance gauge
+Fu,Y.               (S1)	yichen.fu23@imperial.ac.uk              	Manikas,A.               	1803348	Cognitive MIMO Radar
+Fu,Z.               (V1)	ziyun.fu23@imperial.ac.uk               	Goodman,D.F.M.           	1803312	Learning to vote when it matters
+GAO,A.              (S1)	ang.gao23@imperial.ac.uk                	Manikas,A.               	1803347	Experimental BISTATIC Radar Using Xilinx ZCU216 RF System-On-Chip (RFSOC) Board
+Gao,B.              (S1)	bo.gao23@imperial.ac.uk                 	Yeatman,E.M.             	1803317	Machine Learning and Wearable Devices for Eating Behaviour Monitoring
+Gao,Z.              (Q1)	zhanhua.gao23@imperial.ac.uk            	Strbac,G.                	1803414	Market-Driven Coordination for Multi-Energy Microgrid Towards a Low-Carbon Future
+Gu,Y.               (C1)	yunzhong.gu23@imperial.ac.uk            	Gu,Y.                    	1803303	Cloud-based co-simulation
+Gui,C.              (S1)	changyang.gui23@imperial.ac.uk          	Constandinou,T.          	1803328	Implantable "smartvessel" for monitoring and prevention of thrombosis
+Guo,S.              (V1)	shutuo.guo23@imperial.ac.uk             	Ling,C.                  	1803243	AI image generation based on improved diffusion models 
+Gupta,S.            (A1)	sudhir.gupta23@imperial.ac.uk           	Georgiou,P.              	1803391	A low power ASIC for biosensing
+HU,Y.               (S1)	yichao.hu23@imperial.ac.uk              	Sydoruk,O.               	1803290	RFID antennas for centrifuges 
+Hall,R.             (Q1)	raheem.hall23@imperial.ac.uk            	Pal,B.C.                 	1802934	Modelling and analysis of converter induced instability in power network 
+Han,H.              (A1)	haobin.han23@imperial.ac.uk             	Cheung,P.Y.K.            	1803401	Can we design electronic circuits automatically?
+Han,J.              (A1)	jiaru.han23@imperial.ac.uk              	Papavassiliou,C.         	1803031	Self-Proposed RF-Instrumentation circuit Design
+He,L.               (C1)	liting.he23@imperial.ac.uk              	Silva Deacto,G.          	1803230	Stability analysis of switched nonlinear systems under constrained time-dependent switching rules
+He,N.               (C1)	nan.he23@imperial.ac.uk                 	Angeli,D.                	1803270	Social optimization without trust: a case study
+He,Y.               (A1)	yifan.he23@imperial.ac.uk               	Wickerson,J.             	1803340	How reliable are high-level equivalence checkers?
+He,Y.               (V1)	yuyao.he23@imperial.ac.uk               	Moosavi Dezfooli,S.M.    	1803110	Robustness to distribution shift
+Heekenjann,T.       (A1)	thorben.heekenjann23@imperial.ac.uk     	Wickerson,J.             	1802982	Random testing of place-and-route tools
+Hon,C.              (V1)	chin.hon23@imperial.ac.uk               	Wang,Sen                 	1802964	Neural LiDAR 3D Reconstruction
+Hong,H.             (V1)	haoyang.hong22@imperial.ac.uk           	Parbhoo,S.               	1803330	Causally-informed Data Augmentation for OOD generalization
+Huang,H.            (S1)	haoxiang.huang23@imperial.ac.uk         	Li,G.                    	1803258	Neuromorphic Semantic Communication for Future Wireless Systems
+Itty Jibu,I.        (A1)	ikshith.jibu23@imperial.ac.uk           	Georgiou,P.              	1802970	Deep Learning at the Edge for SoC Blood Glucose Prediction
+JIANG,X.            (S1)	xinyue.jiang23@imperial.ac.uk           	Constandinou,T.          	1803310	Unobtrusive sleep apnea diagnosis using ultra-wideband radar technology
+Ji,H.               (Q1)	hongou.ji22@imperial.ac.uk              	Teng,F.                  	1803004	Data-driven approaches to transient voltage stability assessment
+Jiang,J.            (S1)	jierui.jiang23@imperial.ac.uk           	Clerckx,B.               	1803201	Signal Processing for 6G Reconfigurable Intelligent Surfaces
+Jiang,Y.            (Q1)	yuhang.jiang23@imperial.ac.uk           	Gu,Y.                    	1803307	How much overcurrent is needed from inverters for fault recovery?
+Jin,Y.              (V1)	yanzhou.jin23@imperial.ac.uk            	Spiers,A.                	1802898	Reinforcement learning of robotic in-hand-manipulation
+Jin,Z.              (A1)	charles.jin23@imperial.ac.uk            	Zhao,Aaron               	1803422	Sparse Hardware Accelerator for Large Language Models
+Jnsson,V.           (Q1)	vilhjalmur.jonsson23@imperial.ac.uk     	Junyent-Ferre,A.         	1803306	Technology for decoupling wind energy resource extraction from the instantaneous electrical power output
+Johnston,L.         (V1)	laurie.johnston23@imperial.ac.uk        	Pitt,J.V.                	1803359	Cooperative Reinforcement Learning
+Joselowitz,J.       (V1)	jared.joselowitz23@imperial.ac.uk       	Parbhoo,S.               	1803437	Using LLMs to generate counterfactuals (2)
+Kurian,A.           (S1)	anna.kurian23@imperial.ac.uk            	Sanei,S.                 	1803215	Adaptive sensor localisation by cooperative diffusion adaptation 
+LI,X.               (S1)	xinyuan.li23@imperial.ac.uk             	Stathaki,P.T.            	1803369	Tiny Object Detection using Deep Learning
+LI,Y.               (V1)	yichen.li23@imperial.ac.uk              	Zhao,Aaron               	1803395	Model Fusion for Task-Aware Diffusion Models
+LIU,K.              (A1)	kunyi.liu23@imperial.ac.uk              	Fobelets,K.              	1803021	Breath analysis using CMOS ISFET Sensor Arrays
+LIU,X.              (S1)	xiaohe.liu23@imperial.ac.uk             	Ling,C.                  	1803245	Post-Quantum Key Exchange over the Internet
+LIU,Y.              (S1)	yi.liu23@imperial.ac.uk                 	Clerckx,B.               	1803200	Signal Design and Optimization for Integrated Sensing and Communication in 6G 
+Lai,X.              (V1)	xuanyu.lai23@imperial.ac.uk             	Wang,Sen                 	1803150	Underwater Object Detection and Segmentation
+Leduc,H.            (Q1)	hector.leduc23@imperial.ac.uk           	O'Malley,M.              	1803367	Data-driven Nodal Inertia Estimation
+Li,C.               (V1)	chenghao.li23@imperial.ac.uk            	Qin,C.                   	1803344	Integrating Deep Learning and Radiomics for Medical Image Analysis
+Li,J.               (S1)	li.li23@imperial.ac.uk                  	Barria,J.A.              	1803107	Traffic anomaly analysis and congestion precursor detection
+Li,M.               (S1)	Muyun_LI11@163.com                      	Vlaski,S.                	1803364	Combination Policies for Decentralized Deep Learning
+Li,W.               (S1)	weiyao.li23@imperial.ac.uk              	Constandinou,T.          	1803289	Unobtrusive balance assessment for people living with neurodegenerative disorders using ultra-wideband radar technology
+Li,X.               (S1)	xintong.li23@imperial.ac.uk             	Dai,W.                   	1803077	Array 4D Sensing: Testbed and Demos for New Capabilities
+Li,Y.               (C1)	yidan.li23@imperial.ac.uk               	Scarciotti,G.            	1803156	[EXTERNAL] MathWorks project 3: Warehouse Robotics Simulation
+Liang,B.            (A1)	bochun.liang23@imperial.ac.uk           	Papavassiliou,C.         	1803436	TBC
+Liao,J.             (S1)	junsong.liao23@imperial.ac.uk           	Dragotti,P.L.            	1802998	Invertible Neural Networks and diffusion models  
+Likitkumjorn,T.     (Q1)	print.likitkumjorn23@imperial.ac.uk     	Chaudhuri,B.             	1803250	Digital twin for inverted-based power grids
+Lin,J.              (C1)	jeric.lin23@imperial.ac.uk              	Jaimoukha,I.M.           	1803254	Tube-Based and Robust Model Predictive Control (RMPC) for uncertain systems
+Lin,J.              (Q1)	jie.lin23@imperial.ac.uk                	Junyent-Ferre,A.         	1803390	Design of an automatic dynamic performance characterisation system for power electronic converter controls
+Lin,Z.              (V1)	zibin.lin23@imperial.ac.uk              	Wang,Sen                 	1803399	Vision-Enabled Underwater Robot for Autonomous Operations (2)
+Liu,B.              (V1)	bingqi.liu23@imperial.ac.uk             	Mikolajczyk,K.M.         	1803432	Point tracking and object pose estimation in RGB-D
+Liu,R.              (C1)	rui_liu2022@163.com                     	Jaimoukha,I.M.           	1803252	Fault detection and isolation
+Liu,S.              (S1)	shang.liu23@imperial.ac.uk              	Toumazou,C.              	1803381	Smart Payment for healthy food products and integration of the microbiome
+Liu,X.              (A1)	xiaomeng.liu23@imperial.ac.uk           	Georgiou,P.              	1803019	A Wireless-Powered Programmable Lab-on-Chip for Swarm based BioSensing
+Liu,Y.              (C1)	yihan.liu123@imperial.ac.uk             	Burdet,E.                	1803169	[EXTERNAL] Impedance control of a robot to improve sensory prediction in physical human-robot collaboration (assigned)
+Llorca Salvador,L.  (V1)	lia.llorca-salvador23@imperial.ac.uk    	Pike,W.T.                	1803438	Comparison using ML of Mars lander and wind tunnel data
+Long,Z.             (S1)	ziying.long23@imperial.ac.uk            	Stathaki,P.T.            	1803398	Real-time Sign Language Recognition with Deep Learning
+MIAO,Z.             (S1)	zhuang.miao23@imperial.ac.uk            	Leung,K.K.               	1803374	Distributed Reinforcement Learning
+MO,Y.               (S1)	yuyue.mo23@imperial.ac.uk               	Barria,J.A.              	1803097	Data Stream evolution analysis using Multiresolution Wavelet Transform
+Ma,M.               (A1)	moteng.ma23@imperial.ac.uk              	Georgiou,P.              	1803272	A CMOS ASIC Design project for novel Biomedical Applications
+Ma,X.               (C1)	maxingyu23fz@outlook.com                	Jaimoukha,I.M.           	1803255	Approximate robust model predictive control design using off-line computational methods
+Ma,Z.               (V1)	zhiyu.ma23@imperial.ac.uk               	Vlaski,S.                	1803363	Primal-Dual Techniques for Distributed Multitask Learning
+Marino,M.           (V1)	mauro.marino23@imperial.ac.uk           	Demiris,Y.K.             	1803329	Robot affordances determination using Large Language Models
+Meem,N.             (C1)	nafia.meem23@imperial.ac.uk             	Evangelou,S.A.           	1803267	Fault detection and isolation in subsea hydraulic system
+Meng,D.             (S1)	deyu.meng23@imperial.ac.uk              	Qin,C.                   	1803339	Implicit Function Learning on fMRI Motion Correction
+Miao,Y.             (A1)	yifan.miao23@imperial.ac.uk             	Bouganis,C.              	1803260	Build a UAV interfaced with an embedded system
+Moodley,L.          (V1)	lisanthan.moodley23@imperial.ac.uk      	Georgiou,P.              	1802969	Advancing rapid diagnostics for infectious diseases using AI classifiers
+Niu,H.              (Q1)	haosen.niu23@imperial.ac.uk             	Chaudhuri,B.             	1803249	Dynamic stability assurance for offshore DC grids
+Osorio Pastore,P.   (Q1)	paz.osorio-pastore23@imperial.ac.uk     	Spyrou,E.                	1803319	Power System Operations under Extreme Conditions
+PENG,Y.             (A1)	yilun.peng23@imperial.ac.uk             	Papavassiliou,C.         	1803032	Analogue and RF applications for Memristors
+Panagiotou,G.       (C1)	george.panagiotou23@imperial.ac.uk      	Scarciotti,G.            	1803377	Hybrid Energy Forecasting and Trading Competition
+Papanikolaou,I.     (V1)	ioanna.papanikolaou23@imperial.ac.uk    	Parbhoo,S.               	1803424	Causal data augmentation for OOD generalization
+Pinto,S.            (V1)	seb.pinto23@imperial.ac.uk              	Spiers,A.                	1803176	DJ Scratch Classification for Musical Training
+Powell,W.           (V1)	will.powell23@imperial.ac.uk            	Spiers,A.                	1803275	A self-organising multi-robot system (SObotics)
+Punnotok,P.         (S1)	punnatt.punnotok23@imperial.ac.uk       	Bhandari,A.              	1803298	High Dynamic Range Lightfield Imaging in Fourier Domain
+QI,N.               (S1)	QiNan2022qn@163.com                     	Clerckx,B.               	1803204	Rate-Splitting Multiple Access for 6G: Prototyping and Implementation
+QIN,H.              (S1)	hongyi.qin23@imperial.ac.uk             	Dragotti,P.L.            	1803435	Invertible Neural Networks and diffusion models (2)
+Qi,Y.               (C1)	yuanyang.qi23@imperial.ac.uk            	Sanei,S.                 	1803217	Heart Murmur Extraction from Heart Sound Using Constrained Singular Spectrum Analysis for Murmur Classification
+Qiao,S.             (C1)	siyuan.qiao23@imperial.ac.uk            	Kiziroglou,M.            	1803433	Controlled Actuation of Micro-Robots by On-Board Visual Feedback (2)
+Qin,T.              (S1)	tianyue.qin23@imperial.ac.uk            	Ling,C.                  	1803246	Coding Theory for Post-Quantum Cryptography
+Rajnthern,L.        (Q1)	logasan.rajnthern23@imperial.ac.uk      	Chaudhuri,B.             	1803247	Locating source of power grid oscillations
+Ramesh,D.           (V1)	divya.ramesh23@imperial.ac.uk           	Parbhoo,S.               	1803334	Monte Carlo Tree Search for Experimental Design 
+Ramteke,P.          (A1)	prachi.abhilash-ramteke23@imperial.ac.uk	Syms,R.R.A.              	1803251	MEMS filter design
+Rong,A.             (C1)	aohan.rong23@imperial.ac.uk             	Stathaki,P.T.            	1803370	Target Detection using Deep Learning with Limited Training Data
+Rotas,K.            (V1)	konstantinos.rotas23@imperial.ac.uk     	Gunduz,D.                	1803388	Large Language Models for Data Compression
+Ruan,C.             (V1)	che.ruan23@imperial.ac.uk               	Li,G.                    	1803257	Elastic Resource Allocation with Deep Reinforcement Learning
+SHEN,R.             (V1)	ruiqi.shen23@imperial.ac.uk             	Gunduz,D.                	1803403	Neural Network based Secure Image/Video Transmission (2)
+SUN,P.              (C1)	pengcheng.sun23@imperial.ac.uk          	Evangelou,S.A.           	1803262	Active suspension control for improved vehicle lateral stability
+SUN,y.              (S1)	sunyuran202210@163.com                  	Naylor,P.A.              	1803064	A Study of Differential Microphone Array Technology
+Saddour,H.          (C1)	hamza.saddour23@imperial.ac.uk          	Scarciotti,G.            	1803154	[EXTERNAL] MathWorks project 1: Multi-UAV Path Planning for Urban Air Mobility
+Safiyanu,A.         (V1)	ahmed.safiyanu23@imperial.ac.uk         	Goodman,D.F.M.           	1803313	Theseus-bot
+Serrano van der Schraft,I.(Q1)	ignacio.serrano23@imperial.ac.uk        	Spyrou,E.                	1803318	Modeling demand flexibility in future power systems
+Shen,Z.             (C1)	zhengyang.shen23@imperial.ac.uk         	Yeatman,E.M.             	1803425	Machine Learning and Wearable Devices for Eating Behaviour Monitoring
+Sheng,H.            (C1)	huayi.sheng23@imperial.ac.uk            	Angeli,D.                	1803384	Neural Lyapunov Control of Nonlinear Systems
+Sidauruk,C.         (Q1)	chris.sidauruk23@imperial.ac.uk         	Pal,B.C.                 	1802930	A Stochastic Method for the Operation of Active Distribution Networks
+Siokourou,E.        (A1)	emily.siokourou23@imperial.ac.uk        	Toumazou,C.              	1803379	An intelligent AI based shopping system for Skincare based on UV and DNA
+Solomon,D.          (V1)	denicke.horsley-solomon23@imperial.ac.uk	Barria,J.A.              	1803100	Time series anomaly detection using contrastive learning
+Song,S.             (S1)	song.song23@imperial.ac.uk              	Naylor,P.A.              	1803062	Sound source localisation using graph neural networks
+Sun,X.              (V1)	xinyi.sun23@imperial.ac.uk              	Gunduz,D.                	1803273	Neural Network based Secure Image/Video Transmission
+Sunil,G.            (A1)	gargi.sunil23@imperial.ac.uk            	Bouganis,C.              	1802979	Mapping CNNs to FPGAs - Semantic segmentation
+Tan,X.              (V1)	tan.tan23@imperial.ac.uk                	Dai,W.                   	1803421	Automatic Segmentation for Ovarian Cancer via Deep Learning
+Tao,A.              (S1)	aaron.tao23@imperial.ac.uk              	Zhang,D.                 	1803423	Sim-to-Real Transfer Learning for Robotic Manipulation
+Tarifi,B.           (V1)	basheq.tarifi23@imperial.ac.uk          	Toumazou,C.              	1803380	Shopping with your Biology
+Tu,H.               (C1)	hua.tu23@imperial.ac.uk                 	Constandinou,T.          	1803350	Unobtrusive multi-person sleep monitoring using ultra-wideband radar technology
+WANG,C.             (C1)	chi.wang23@imperial.ac.uk               	Angeli,D.                	1803269	Data-driven Model Predictive Control in Noisy Environments
+WANG,Z.             (S1)	zitong.wang23@imperial.ac.uk            	Stathaki,P.T.            	1803375	Semantic Segmentation of Land from Aerial Imagery
+WEI,Z.              (Q1)	zhi.wei23@imperial.ac.uk                	Pal,B.C.                 	1802935	Forecasting MW from DG in the UK from weather data
+WU,C.               (S1)	chenhao.wu23@imperial.ac.uk             	Qin,C.                   	1803343	Machine Learning in Quality Control for Diffusion Tensor Cardiac MRI
+WU,Y.               (C1)	yingze.wu23@imperial.ac.uk              	Jaimoukha,I.M.           	1803253	Fault tolerant control system design
+Wan,R.              (S1)	ruiqi.wan23@imperial.ac.uk              	Pike,W.T.                	1803342	Denoising the seismic record of Mars
+Wang,G.             (V1)	guanwen.wang22@imperial.ac.uk           	Bouganis,C.              	1803365	What’s that sound
+Wang,H.             (C1)	hanzhen.wang23@imperial.ac.uk           	Dai,W.                   	1803081	Deep Reinforcement Learning for Breast Cancer Personalized Treatments
+Wang,K.             (A1)	kunyao.wang23@imperial.ac.uk            	Papavassiliou,C.         	1803321	Amplifiers using  Memristors
+Wang,L.             (A1)	li.wang23@imperial.ac.uk                	Zhao,Aaron               	1803428	Enabling High-Performance Acceleration of Graph Neural Networks
+Wang,L.             (C1)	liujia.wang23@imperial.ac.uk            	Franco,E.                	1803185	Modelling and control of soft robotic manipulators for surgery
+Wang,S.             (C1)	felix.wang23@imperial.ac.uk             	Parisini,T.              	1803356	Control of Supply-Chain Systems
+Wang,Y.             (C1)	yuming.wang23@imperial.ac.uk            	Gu,Y.                    	1803308	SiC/GaN ultrafast power amplifier for hardware-in-the-loop simulation
+Wang,Z.             (C1)	zuwei.wang23@imperial.ac.uk             	Constandinou,T.          	1802911	Development of an embedded system for instrumentation control and data capture in ex-vivo heart muscle tissue baths
+Wei,Y.              (C1)	yunpeng.wei23@imperial.ac.uk            	Scarciotti,G.            	1803235	Moment-matching for recurrent-equilibrium networks
+Wei,Z.              (S1)	zizun.wei23@imperial.ac.uk              	Dragotti,P.L.            	1803239	Reconstructing activity of neurons in 3-D using lightfield microscopy
+White,A.            (V1)	alex.white23@imperial.ac.uk             	Mikolajczyk,K.M.         	1803387	Computer vision projects 2023-2024 
+Wu,S.               (V1)	shiwei.wu23@imperial.ac.uk              	Moosavi Dezfooli,S.M.    	1803109	What do LLMs know about sequence prediction?
+Wu,Y.               (A1)	yujie.wu23@imperial.ac.uk               	Georgiou,P.              	1802968	Wireless Portable Electrochemistry Platform for Point-of-Care Diagnosis 
+XING,C.             (A1)	changwen.xing23@imperial.ac.uk          	Cheung,P.Y.K.            	1803402	A comprehensive environment for teaching computer architecture using RISC-V
+Xie,Z.              (C1)	zeming.xie23@imperial.ac.uk             	Li,G.                    	1803256	MSc Project: Bayesian Optimisation in UAV Management and Path Planning
+Xin,Y.              (C1)	xinyahang@live.com                      	Evangelou,S.A.           	1803261	Optimal control of the vehicle overtaking manoeuvre
+Xu,J.               (A1)	jiamu.xu23@imperial.ac.uk               	Papavassiliou,C.         	1803029	A memristor compact model for circuit simulations
+Xu,Z.               (Q1)	zhiyuan.xu23@imperial.ac.uk             	Gu,Y.                    	1803302	Rapid control prototyping for stability study of renewable inverters
+YANG,C.             (S1)	chen.yang23@imperial.ac.uk              	Constandinou,T.          	1802904	Developing a wireless intracranial neuromonitoring device for drug-resistant epilepsy: impact of global vs. local referencing
+YANG,X.             (S1)	xinchen.yang23@imperial.ac.uk           	Stathaki,P.T.            	1803396	Enhancing Medical Diagnosis with Deep Learning-based Image Segmentation
+YE,Y.               (C1)	yeyhuk@163.com                          	Parisini,T.              	1803353	Formal Verification of Neural-Network Controlled Systems
+YUAN,Y.             (C1)	yan.yuan23@imperial.ac.uk               	Parisini,T.              	1803354	Truck Platooning in Mixed Traffic
+YUAN,Z.             (S1)	zhe.yuan23@imperial.ac.uk               	Constandinou,T.          	1803332	Development of a smart under-mattress mat for sleep monitoring
+Yang,J.             (A1)	jingrong.yang23@imperial.ac.uk          	Mitcheson,P.D.           	1803378	An investigation into the operational and regulatory limits of inductive wireless power transfer
+Yang,J.             (C1)	jinyu.yang23@imperial.ac.uk             	Parisini,T.              	1803351	Interaction-Aware Safe Planning for Autonomous Systems
+Ye,Z.               (Q1)	zhian.ye23@imperial.ac.uk               	Strbac,G.                	1803411	 Peer-to-Peer Energy Trading for Microgrids towards a Low-Carbon Future
+You,O.              (V1)	owen.you23@imperial.ac.uk               	Junyent-Ferre,A.         	1803389	Design of a low-power intelligent lift state estimation system
+Yuan,Z.             (V1)	zhoujing.yuan23@imperial.ac.uk          	Spiers,A.                	1803277	Towards Tactile Sensor Agnostic Feature Extraction with a Robotic Arm
+Yushi,Z.            (V1)	zekai.yushi23@imperial.ac.uk            	Mikolajczyk,K.M.         	1803430	Generating images from depth data using diffusion models
+ZHANG,S.            (S1)	shoushan.zhang23@imperial.ac.uk         	Pike,W.T.                	1803341	Unveiling the interior of Mars using signal analysis
+ZHENG,R.            (S1)	ruxin.zheng23@imperial.ac.uk            	Sanei,S.                 	1803394	Identification of infant lung problems from auscultated sounds
+ZHENG,Y.            (C1)	yikang.zheng23@imperial.ac.uk           	Evangelou,S.A.           	1803276	Finite frequency active suspension control design for road vehicles
+Zhai,X.             (C1)	xinjie.zhai23@imperial.ac.uk            	Kerrigan,E.C.            	1802877	Control of a minidrone over a wireless network
+Zhang,B.            (S1)	bingrui.zhang23@imperial.ac.uk          	Clerckx,B.               	1803205	Machine Learning to Optimize 6G Wireless Communications 
+Zhang,J.            (C1)	jingyun.zhang23@imperial.ac.uk          	Teng,F.                  	1803003	Estimation on Synthetic Inertia Contribution from Wind Farm
+Zhang,Q.            (S1)	qiaosen.zhang23@imperial.ac.uk          	Clerckx,B.               	1803202	Electromagnetic Modelling of 6G Reconfigurable Intelligent Surfaces
+Zhang,T.            (C1)	tianzhe.zhang23@imperial.ac.uk          	Kiziroglou,M.            	1803282	Controlled Actuation of Micro-Robots by On-Board Visual Feedback
+Zhang,Y.            (S1)	yufeng.zhang23@imperial.ac.uk           	Stathaki,P.T.            	1803397	Safeguarding Spaces with GAN-based Anomaly Detection in Surveillance Images
+Zhao,M.             (S1)	mohan.zhao23@imperial.ac.uk             	Leung,K.K.               	1803373	Efficiency and Data Privacy in Federated Learning
+Zhao,R.             (S1)	zruixuan22@163.com                      	Dai,W.                   	1803080	Automatic Segmentation for Ovarian Cancer via Deep Learning
+Zheng,X.            (V1)	xinyi.zheng23@imperial.ac.uk            	Mikolajczyk,K.M.         	1803431	Robot Control Using Large Language Models (LLMs)
+Zheng,Y.            (S1)	yisong.zheng23@imperial.ac.uk           	Bouganis,C.              	1802983	Accelerating Visual Simultaneous Localisation and Mapping (SLAM) System using FPGA
+Zhou,J.             (A1)	jiabao.zhou23@imperial.ac.uk            	Wickerson,J.             	1803338	Finding bugs in RTL equivalence checkers
+Zhu,J.              (C1)	joanna.zhu23@imperial.ac.uk             	O'Malley,M.              	1803366	 Planning for extreme weather events on power system distribution grids
