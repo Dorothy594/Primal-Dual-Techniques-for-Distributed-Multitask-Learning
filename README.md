@@ -7,23 +7,23 @@ Below is the reproduced result of _Netwrked Federated Multi-Task Learning_.
 ### SBM_experiment_two_cluster
 ```
 algorithm 1, norm1: 
- mean train MSE: 6.648490851843164e-06 
- mean test MSE: 7.430745835367243e-06
+ mean train MSE: 6.4698986596733505e-06 
+ mean test MSE: 6.627195715031921e-06
 algorithm 1, norm2: 
- mean train MSE: 6.5157410398325364e-06 
- mean test MSE: 6.951402387874681e-06
+ mean train MSE: 7.038874723248306e-06 
+ mean test MSE: 7.919822768537505e-06
 algorithm 1, mocha: 
- mean train MSE: 0.0008791028698467273 
- mean test MSE: 0.06414423875468996
+ mean train MSE: 0.0008504003309019318 
+ mean test MSE: 0.06394019780668332
 federated learning: 
- mean train MSE: 4.227908015566447 
- mean test MSE: 4.591892715415446
+ mean train MSE: 4.051725271824381 
+ mean test MSE: 4.147543289786365
 linear regression: 
- mean train MSE: 4.093113271936838 
- mean test MSE: 4.392024277120782
+ mean train MSE: 3.9022515672722258 
+ mean test MSE: 4.226502743254196
 decision tree: 
- mean train MSE: 4.122721030449925 
- mean test MSE: 4.919454071927583
+ mean train MSE: 4.122261561839011 
+ mean test MSE: 4.545924834146329
 ```
 ![two clusters error bars plot](https://github.com/Dorothy594/Primal-Dual-Techniques-for-Distributed-Multitask-Learning/blob/main/FederatedLearning/self%20try%20result/two%20cluster%20result/two%20cluster%20bar.png)
 #### norm1
