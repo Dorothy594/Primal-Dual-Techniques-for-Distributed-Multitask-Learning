@@ -18,5 +18,5 @@ M: 0.6
  MSEs_mean: {0.01: 3.044217359193656e-06, 0.05: 6.6720254646686e-05, 0.1: 0.00026753102607954455, 0.15: 0.0005690519075226593, 0.2: 0.00989659570175035, 0.25: 0.2520299174797652, 0.3: 1.4993752185425029, 0.4: 1.7753265001937184, 0.5: 1.8706502546177852, 0.6: 1.7041332587935962}
  MSEs_std: {0.01: 2.453216918172619e-07, 0.05: 4.557554017907675e-06, 0.1: 3.4889766772876215e-05, 0.15: 5.2499714895014274e-05, 0.2: 0.017435092636572558, 0.25: 0.11348288563332372, 0.3: 0.1852851268333664, 0.4: 0.15345188625520367, 0.5: 0.32720739577450064, 0.6: 0.1742130438186501}
 ```
-![norm1 result](./FederatedLearning/self\ try\ result/two\ cluster\ result/norm1.png)
+![norm1 result]([./FederatedLearning/self\ try\ result/two\ cluster\ result/norm1.png](https://github.com/Dorothy594/Primal-Dual-Techniques-for-Distributed-Multitask-Learning/blob/main/FederatedLearning/self%20try%20result/two%20cluster%20result/norm1.png)https://github.com/Dorothy594/Primal-Dual-Techniques-for-Distributed-Multitask-Learning/blob/main/FederatedLearning/self%20try%20result/two%20cluster%20result/norm1.png)
 
