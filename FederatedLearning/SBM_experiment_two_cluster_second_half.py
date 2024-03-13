@@ -590,7 +590,7 @@ PENALTY_FUNCS = ['mocha']
 
 lambda_lasso = 0.01
 
-K = 2000
+K = 1000
 # sampling_ratio = 0.6
 
 # pouts = [0.01, 0.1, 0.5]
