@@ -1,0 +1,26 @@
+C:\Users\DELL\FederatedLearning\Scripts\python.exe D:\Imperial\Project\Primal-Dual-Techniques-for-Distributed-Multitask-Learning\FederatedLearning\SBM_experiment_two_cluster_bar.py 
+algorithm 1, norm1: 
+ mean train MSE: 6.709271892264765e-06 
+ mean test MSE: 7.285108477292904e-06
+algorithm 1, norm2: 
+ mean train MSE: 6.30608173829514e-06 
+ mean test MSE: 6.210403642633794e-06
+algorithm 1, mocha: 
+ mean train MSE: 0.000993321745918941 
+ mean test MSE: 0.06880990586600477
+federated learning: 
+ mean train MSE: 4.0256258535084175 
+ mean test MSE: 4.337774135551412
+linear regression: 
+ mean train MSE: 3.8839872038721053 
+ mean test MSE: 4.283937407025824
+decision tree: 
+ mean train MSE: 4.133611553094782 
+ mean test MSE: 4.7244432308137965
+consensus+innovation: 
+ mean train MSE: 0.018483083726502477 
+ std train MSE: 0.08761567417072556 
+ mean test MSE: 0.018650388896235957 
+ std test MSE: 0.09752997898207065
+
+Process finished with exit code 0
