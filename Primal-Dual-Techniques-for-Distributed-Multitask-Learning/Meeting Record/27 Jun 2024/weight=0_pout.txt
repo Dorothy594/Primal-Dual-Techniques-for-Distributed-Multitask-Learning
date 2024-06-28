@@ -1,0 +1,173 @@
+C:\Users\DELL\FederatedLearning\Scripts\python.exe D:\Imperial\Project\Primal-Dual-Techniques-for-Distributed-Multitask-Learning\FederatedLearning\try.py 
+consensus + innovation pout=0.0: 
+ mean total MSE: 1.7219480688314239e-28 
+ std_dev total MSE: 1.3749002193740824e-31
+consensus + innovation pout=0.01: 
+ mean total MSE: 7.818305395015114e+65 
+ std_dev total MSE: 2.0467719923258597e+66
+consensus + innovation pout=0.02: 
+ mean total MSE: 3.946423692724881e-27 
+ std_dev total MSE: 5.50307902917138e-27
+consensus + innovation pout=0.03: 
+ mean total MSE: 3.9730678683991784e-29 
+ std_dev total MSE: 8.585954353347537e-32
+consensus + innovation pout=0.04: 
+ mean total MSE: 4.3134506192929714e-29 
+ std_dev total MSE: 3.9094100848099385e-31
+consensus + innovation pout=0.05: 
+ mean total MSE: 6.0272197977770285e+258 
+ std_dev total MSE: inf
+C:\Users\DELL\FederatedLearning\Lib\site-packages\numpy\core\_methods.py:176: RuntimeWarning: overflow encountered in multiply
+  x = um.multiply(x, x, out=x)
+C:\Users\DELL\FederatedLearning\Lib\site-packages\numpy\core\_methods.py:187: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(x, axis, dtype, out, keepdims=keepdims, where=where)
+consensus + innovation pout=0.06: 
+ mean total MSE: 4.937994796282889e+153 
+ std_dev total MSE: inf
+consensus + innovation pout=0.07: 
+ mean total MSE: 1.6554947739199367e-29 
+ std_dev total MSE: 2.497295544856463e-32
+consensus + innovation pout=0.08: 
+ mean total MSE: 1.2009451823400541e-11 
+ std_dev total MSE: 7.537685833112512e-12
+consensus + innovation pout=0.09: 
+ mean total MSE: 1.5084731783740792e-08 
+ std_dev total MSE: 6.8675564400437985e-09
+consensus + innovation pout=0.1: 
+ mean total MSE: 9.751728513922637e-30 
+ std_dev total MSE: 6.359955728943428e-32
+consensus + innovation pout=0.11: 
+ mean total MSE: 339425.36848437396 
+ std_dev total MSE: 171730.0010889614
+consensus + innovation pout=0.12: 
+ mean total MSE: 6.334428179444159e+61 
+ std_dev total MSE: 1.6003161720293105e+62
+consensus + innovation pout=0.13: 
+ mean total MSE: 3.3384966366916294e+51 
+ std_dev total MSE: 7.625690949520208e+51
+consensus + innovation pout=0.14: 
+ mean total MSE: 1.4604148679953866e-30 
+ std_dev total MSE: 2.8556969294213814e-32
+consensus + innovation pout=0.15: 
+ mean total MSE: 3.2557658352033215e+116 
+ std_dev total MSE: 1.1603350203587245e+117
+consensus + innovation pout=0.16: 
+ mean total MSE: 1.5349939661256084e+156 
+ std_dev total MSE: inf
+consensus + innovation pout=0.17: 
+ mean total MSE: 1.2383292165283157e+85 
+ std_dev total MSE: 3.738974600900466e+85
+consensus + innovation pout=0.18: 
+ mean total MSE: 8.400199669036593e+275 
+ std_dev total MSE: inf
+consensus + innovation pout=0.19: 
+ mean total MSE: 2.269765119196492e+134 
+ std_dev total MSE: 8.721912869289223e+134
+consensus + innovation pout=0.2: 
+ mean total MSE: 5.654945198609204e+259 
+ std_dev total MSE: inf
+consensus + innovation pout=0.21: 
+ mean total MSE: 6.683865975048912 
+ std_dev total MSE: 1.7397995732120572
+consensus + innovation pout=0.22: 
+ mean total MSE: 0.010432839593576954 
+ std_dev total MSE: 0.00028032124693829163
+consensus + innovation pout=0.23: 
+ mean total MSE: 2.6214979057386354e+271 
+ std_dev total MSE: inf
+consensus + innovation pout=0.24: 
+ mean total MSE: 7.400511196966191e-30 
+ std_dev total MSE: 1.0914329939351567e-31
+consensus + innovation pout=0.25: 
+ mean total MSE: 1.3137604648417686e+133 
+ std_dev total MSE: 5.005586297619405e+133
+consensus + innovation pout=0.26: 
+ mean total MSE: 105421633.19218685 
+ std_dev total MSE: 69944755.48749572
+consensus + innovation pout=0.27: 
+ mean total MSE: 2.3724790390210767e+234 
+ std_dev total MSE: inf
+consensus + innovation pout=0.28: 
+ mean total MSE: 3.6339818893334195e+192 
+ std_dev total MSE: inf
+consensus + innovation pout=0.29: 
+ mean total MSE: 5.0191909718536845e-23 
+ std_dev total MSE: 6.385604053146306e-23
+consensus + innovation pout=0.3: 
+ mean total MSE: 3.017061659292179e+184 
+ std_dev total MSE: inf
+D:\Imperial\Project\Primal-Dual-Techniques-for-Distributed-Multitask-Learning\FederatedLearning\try.py:19: RuntimeWarning: overflow encountered in square
+  return np.mean((y_true - y_pred) ** 2)
+C:\Users\DELL\FederatedLearning\Lib\site-packages\numpy\core\_methods.py:118: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+D:\Imperial\Project\Primal-Dual-Techniques-for-Distributed-Multitask-Learning\FederatedLearning\try.py:41: RuntimeWarning: invalid value encountered in multiply
+  regularization_term = lambda_reg * weights[i]
+D:\Imperial\Project\Primal-Dual-Techniques-for-Distributed-Multitask-Learning\FederatedLearning\try.py:44: RuntimeWarning: invalid value encountered in subtract
+  weights_new[i] = consensus_sum - learning_rate * gradient
+consensus + innovation pout=0.31: 
+ mean total MSE: nan 
+ std_dev total MSE: nan
+consensus + innovation pout=0.32: 
+ mean total MSE: 8.759690567907152e+94 
+ std_dev total MSE: 2.797296982844511e+95
+consensus + innovation pout=0.33: 
+ mean total MSE: 1.0944683158212132e+180 
+ std_dev total MSE: inf
+consensus + innovation pout=0.34: 
+ mean total MSE: 2.4537254708360347e+147 
+ std_dev total MSE: 9.912925447265705e+147
+consensus + innovation pout=0.35000000000000003: 
+ mean total MSE: 1.4060318732898713e+128 
+ std_dev total MSE: 5.257820739770698e+128
+consensus + innovation pout=0.36: 
+ mean total MSE: 3.593206290023862e+179 
+ std_dev total MSE: inf
+consensus + innovation pout=0.37: 
+ mean total MSE: 2.8850332362853645e+109 
+ std_dev total MSE: 9.916930592605635e+109
+consensus + innovation pout=0.38: 
+ mean total MSE: 1.7952976619008467e+172 
+ std_dev total MSE: inf
+consensus + innovation pout=0.39: 
+ mean total MSE: 4.577439780397476e+79 
+ std_dev total MSE: 1.3293688138206724e+80
+consensus + innovation pout=0.4: 
+ mean total MSE: 5.6096824203666375e-09 
+ std_dev total MSE: 2.589575765739813e-09
+consensus + innovation pout=0.41000000000000003: 
+ mean total MSE: 2.417875054895413e+124 
+ std_dev total MSE: 8.892011261012608e+124
+consensus + innovation pout=0.42: 
+ mean total MSE: 1.0421580950693066e-31 
+ std_dev total MSE: 4.4723724765429345e-33
+consensus + innovation pout=0.43: 
+ mean total MSE: 2.44371289308409e+147 
+ std_dev total MSE: 9.832352735193893e+147
+consensus + innovation pout=0.44: 
+ mean total MSE: 5.021394252102435e+102 
+ std_dev total MSE: 1.6702421789830903e+103
+consensus + innovation pout=0.45: 
+ mean total MSE: 8.58790478488318e+23 
+ std_dev total MSE: 1.2233400852927245e+24
+consensus + innovation pout=0.46: 
+ mean total MSE: 5.325712081806203e+41 
+ std_dev total MSE: 1.073218251923573e+42
+D:\Imperial\Project\Primal-Dual-Techniques-for-Distributed-Multitask-Learning\FederatedLearning\try.py:19: RuntimeWarning: overflow encountered in square
+  return np.mean((y_true - y_pred) ** 2)
+C:\Users\DELL\FederatedLearning\Lib\site-packages\numpy\core\_methods.py:118: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+D:\Imperial\Project\Primal-Dual-Techniques-for-Distributed-Multitask-Learning\FederatedLearning\try.py:41: RuntimeWarning: invalid value encountered in multiply
+  regularization_term = lambda_reg * weights[i]
+D:\Imperial\Project\Primal-Dual-Techniques-for-Distributed-Multitask-Learning\FederatedLearning\try.py:44: RuntimeWarning: invalid value encountered in subtract
+  weights_new[i] = consensus_sum - learning_rate * gradient
+consensus + innovation pout=0.47000000000000003: 
+ mean total MSE: nan 
+ std_dev total MSE: nan
+consensus + innovation pout=0.48: 
+ mean total MSE: 1.4303677441822382e+20 
+ std_dev total MSE: 1.818275533189859e+20
+consensus + innovation pout=0.49: 
+ mean total MSE: 1.6760805386772025e-28 
+ std_dev total MSE: 5.83307007873554e-31
+
+Process finished with exit code 0

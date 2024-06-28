@@ -1,0 +1,77 @@
+pout=0.01
+C:\Users\DELL\FederatedLearning\Scripts\python.exe D:\Imperial\Project\Primal-Dual-Techniques-for-Distributed-Multitask-Learning\FederatedLearning\try.py 
+algorithm 1, norm1: 
+ mean train MSE: 6.928014876151042e-06 
+ mean test MSE: 6.907227962106688e-06
+algorithm 1, norm2: 
+ mean train MSE: 7.500043161255553e-06 
+ mean test MSE: 8.451415567086218e-06
+algorithm 1, mocha: 
+ mean train MSE: 0.0010330894033421325 
+ mean test MSE: 0.06417610877963544
+federated learning: 
+ mean train MSE: 4.025764502504243 
+ mean test MSE: 4.010688806340634
+linear regression: 
+ mean train MSE: 3.9466114347302694 
+ mean test MSE: 4.0238429567854705
+decision tree: 
+ mean train MSE: 4.229998830835729 
+ mean test MSE: 4.5579865096965735
+[6.9155427277244315e-06, 8.070866604753953e-06, 0.038918901029118116, 4.016719084806078, 3.992950347963389, 4.426791438152236]
+[4.166878870739301e-07, 5.786227018490218e-07, 0.005989824416253571, 0.08091189238962394, 0.019775888800479993, 0.054078256644205853]
+
+Process finished with exit code 0
+
+
+pout=0.0001
+C:\Users\DELL\FederatedLearning\Scripts\python.exe D:\Imperial\Project\Primal-Dual-Techniques-for-Distributed-Multitask-Learning\FederatedLearning\try.py 
+algorithm 1, norm1: 
+ mean train MSE: 2.4257941772479413e-28 
+ mean test MSE: 4.275349941430384e-28
+algorithm 1, norm2: 
+ mean train MSE: 8.622887241613974e-09 
+ mean test MSE: 1.3577202983709427e-08
+algorithm 1, mocha: 
+ mean train MSE: 2.9215516622512354e-09 
+ mean test MSE: 4.0802798510428376e-07
+federated learning: 
+ mean train MSE: 4.144452515375982 
+ mean test MSE: 4.2260820973459605
+linear regression: 
+ mean train MSE: 4.010458568815229 
+ mean test MSE: 4.458292399439614
+decision tree: 
+ mean train MSE: 4.268464675960925 
+ mean test MSE: 4.788580421251162
+[3.5355276357574066e-28, 1.1595476686871246e-08, 2.459854117274707e-07, 4.193430264557968, 4.279158867189859, 4.580534123135068]
+[7.019622483292065e-28, 2.312924171214114e-08, 8.661866925745104e-08, 0.020495031251610063, 0.16122750568067212, 0.04871601160201503]
+
+Process finished with exit code 0
+
+
+pout=0
+C:\Users\DELL\FederatedLearning\Scripts\python.exe D:\Imperial\Project\Primal-Dual-Techniques-for-Distributed-Multitask-Learning\FederatedLearning\try.py 
+algorithm 1, norm1: 
+ mean train MSE: 7.9100834622750335e-28 
+ mean test MSE: 9.415981311731467e-28
+algorithm 1, norm2: 
+ mean train MSE: 1.8587996021381304e-16 
+ mean test MSE: 2.0487492393698561e-16
+algorithm 1, mocha: 
+ mean train MSE: 2.4135845965030014e-09 
+ mean test MSE: 3.656433871092327e-07
+federated learning: 
+ mean train MSE: 3.826001799495402 
+ mean test MSE: 4.080531796652298
+linear regression: 
+ mean train MSE: 3.707426016008184 
+ mean test MSE: 3.968736044323171
+decision tree: 
+ mean train MSE: 3.8992971873227438 
+ mean test MSE: 4.48451136741944
+[8.813622171948893e-28, 1.9727693844771662e-16, 2.2035146610414088e-07, 3.9787197977895388, 3.8642120329971767, 4.250425695380761]
+[1.7621880437342812e-27, 3.922491881480822e-16, 7.702809823247132e-08, 0.13790852121440317, 0.05328747429202493, 0.04592457655962625]
+
+Process finished with exit code 0
+
