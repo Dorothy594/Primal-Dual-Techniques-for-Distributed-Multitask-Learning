@@ -8,8 +8,6 @@ from collections import defaultdict
 from joblib import Parallel, delayed
 import multiprocessing
 import algorithm.optimizer as opt
-from sklearn.preprocessing import StandardScaler
-import pandas as pd
 
 
 np.random.seed(0)
@@ -51,12 +49,6 @@ def consensus_innovation(iterations, datapoints, adj_matrix, learning_rate=0.1, 
             mse = mean_squared_error(true_labels, Y_pred)
             iteration_scores.append(mse)
 
-    print(weights)
-
-    # df_weight = pd.DataFrame(weights)
-    # with pd.ExcelWriter('ci_weight_150.xlsx') as writer:
-    #     df_weight.to_excel(writer, sheet_name='ci_weight', index=False)
-
     return iteration_scores, weights
 
 
@@ -78,7 +70,6 @@ def get_sbm_data(cluster_sizes, G, W, m=1, n=2, noise_sd=0, is_torch_model=True)
     weight_vec = weight_vec[:cnt]
     B = B[:cnt, :]
 
-    # node_degrees = np.array((1.0 / (np.sum(abs(B), 0)))).ravel()
     node_degrees = np.array(np.sum(abs(B), 0)).ravel()
     datapoints = {}
     true_labels = []
@@ -106,15 +97,6 @@ def get_sbm_data(cluster_sizes, G, W, m=1, n=2, noise_sd=0, is_torch_model=True)
                 'optimizer': optimizer
             }
             cnt += 1
-    #
-    # # Convert the dictionary to a pandas DataFrame
-    # df = pd.DataFrame.from_dict(datapoints, orient='index')
-    #
-    # # Save the DataFrame to an Excel file
-    # excel_file_path = 'datapoints_100_1.xlsx'
-    # df.to_excel(excel_file_path, index=True)
-    #
-    # print(f"Datapoints have been successfully saved to {excel_file_path}")
 
     return B, weight_vec, np.array(true_labels), datapoints
 
@@ -143,12 +125,62 @@ def calculate_a_kl(k, l, matrix, degrees):
             calculate_a_kl(k, i, matrix, degrees) for i in range(len(matrix)) if i != k and matrix[k][i] == 1)
 
 
+# def create_a_matrix(matrix, degrees):
+#     size = len(matrix)
+#     a_matrix = np.zeros((size, size))
+#     for k in range(size):
+#         for l in range(size):
+#             a_matrix[k][l] = calculate_a_kl(k, l, matrix, degrees)
+#
+#     for k in range(size):
+#         for l in range(size):
+#             if k > size / 2 > l:
+#                 a_matrix[k][l] = 0
+#                 a_matrix[l][k] = 0
+#
+#     return a_matrix
+
+
+def normalize_rows(matrix):
+    size = len(matrix)
+    for i in range(size):
+        row_sum = np.sum(matrix[i])
+        if row_sum != 0:
+            matrix[i] = matrix[i] / row_sum
+    return matrix
+
+
+def normalize_columns(matrix):
+    size = len(matrix)
+    for j in range(size):
+        col_sum = np.sum(matrix[:, j])
+        if col_sum != 0:
+            matrix[:, j] = matrix[:, j] / col_sum
+    return matrix
+
+
 def create_a_matrix(matrix, degrees):
     size = len(matrix)
     a_matrix = np.zeros((size, size))
     for k in range(size):
         for l in range(size):
             a_matrix[k][l] = calculate_a_kl(k, l, matrix, degrees)
+
+    for k in range(size):
+        for l in range(size):
+            if k > size / 2 > l:
+                a_matrix[k][l] = 0
+                a_matrix[l][k] = 0
+
+    # 进行行归一化和列归一化
+    a_matrix = normalize_rows(a_matrix)
+    a_matrix = normalize_columns(a_matrix)
+
+    # 迭代几次，以确保行列和都接近 1
+    for _ in range(10):
+        a_matrix = normalize_rows(a_matrix)
+        a_matrix = normalize_columns(a_matrix)
+
     return a_matrix
 
 
@@ -161,12 +193,8 @@ def get_sbm_2blocks_data(weight, m=1, n=2, pin=0.5, pout=0.01, noise_sd=0, is_to
     W2 = np.array([-weight, 2])
     W = [W1, W2]
 
-    # print(f"Global clustering coefficient: {nx.average_clustering(G)}")
-
     N = len(G.nodes)
     E = len(G.edges)
-    # density = 2 * E / (N * (N-1))
-    # print(f"Density: {density}")
 
     return get_sbm_data(cluster_sizes, G, W, m, n, noise_sd, is_torch_model)
 
@@ -184,26 +212,6 @@ all_degrees = [datapoint['degree'] for datapoint in datapoints.values()]
 print(f"all_degrees: {all_degrees}")
 print(f"mean value of all_degrees: {np.mean(all_degrees)}")
 adjacency_matrix = incidence_to_adjacency(B)
-
-# # 提取 features 并展平成二维列表
-# features_list = [value['features'][0] for value in datapoints.values()]
-# features_df = pd.DataFrame(features_list, columns=[f'feature{i+1}' for i in range(len(features_list[0]))])
-#
-# # 提取其他字段并处理 label 列
-# other_fields = {
-#     key: {k: (v[0] if k == 'label' else v) for k, v in value.items() if k != 'features'}
-#     for key, value in datapoints.items()
-# }
-# other_fields_df = pd.DataFrame.from_dict(other_fields, orient='index')
-#
-# # 合并数据框
-# df = pd.concat([features_df, other_fields_df.reset_index(drop=True)], axis=1)
-#
-# # Save the DataFrame to an Excel file
-# excel_file_path = 'datapoints_12.xlsx'
-# df.to_excel(excel_file_path, index=True)
-#
-# print(f"Datapoints have been successfully saved to {excel_file_path}")
 
 degrees = [sum(row) for row in adjacency_matrix]
 new_matrix = create_a_matrix(adjacency_matrix, degrees)

@@ -51,7 +51,7 @@ def consensus_innovation(iterations, datapoints, adj_matrix, learning_rate=0.1, 
             mse = mean_squared_error(true_labels, Y_pred)
             iteration_scores.append(mse)
 
-    print(weights)
+    # print(weights)
 
     # df_weight = pd.DataFrame(weights)
     # with pd.ExcelWriter('ci_weight_150.xlsx') as writer:
@@ -178,70 +178,77 @@ def get_consensus_innovation_MSE(K, datapoints, samplingset, matrix):
 
 
 iteration = 1000
-weight = 2
-B, weight_vec, true_labels, datapoints = get_sbm_2blocks_data(weight, pin=0.5, pout=0.01, is_torch_model=False)
-all_degrees = [datapoint['degree'] for datapoint in datapoints.values()]
-print(f"all_degrees: {all_degrees}")
-print(f"mean value of all_degrees: {np.mean(all_degrees)}")
-adjacency_matrix = incidence_to_adjacency(B)
+weight = 20
+out_prob = range(50)
+final_pout = []
+final_mean = []
+for i in out_prob:
+    B, weight_vec, true_labels, datapoints = get_sbm_2blocks_data(weight, pin=0.5, pout=0.01, is_torch_model=False)
+    all_degrees = [datapoint['degree'] for datapoint in datapoints.values()]
+    # print(f"all_degrees: {all_degrees}")
+    # print(f"mean value of all_degrees: {np.mean(all_degrees)}")
+    adjacency_matrix = incidence_to_adjacency(B)
 
-# # 提取 features 并展平成二维列表
-# features_list = [value['features'][0] for value in datapoints.values()]
-# features_df = pd.DataFrame(features_list, columns=[f'feature{i+1}' for i in range(len(features_list[0]))])
-#
-# # 提取其他字段并处理 label 列
-# other_fields = {
-#     key: {k: (v[0] if k == 'label' else v) for k, v in value.items() if k != 'features'}
-#     for key, value in datapoints.items()
-# }
-# other_fields_df = pd.DataFrame.from_dict(other_fields, orient='index')
-#
-# # 合并数据框
-# df = pd.concat([features_df, other_fields_df.reset_index(drop=True)], axis=1)
-#
-# # Save the DataFrame to an Excel file
-# excel_file_path = 'datapoints_12.xlsx'
-# df.to_excel(excel_file_path, index=True)
-#
-# print(f"Datapoints have been successfully saved to {excel_file_path}")
+    # # 提取 features 并展平成二维列表
+    # features_list = [value['features'][0] for value in datapoints.values()]
+    # features_df = pd.DataFrame(features_list, columns=[f'feature{i+1}' for i in range(len(features_list[0]))])
+    #
+    # # 提取其他字段并处理 label 列
+    # other_fields = {
+    #     key: {k: (v[0] if k == 'label' else v) for k, v in value.items() if k != 'features'}
+    #     for key, value in datapoints.items()
+    # }
+    # other_fields_df = pd.DataFrame.from_dict(other_fields, orient='index')
+    #
+    # # 合并数据框
+    # df = pd.concat([features_df, other_fields_df.reset_index(drop=True)], axis=1)
+    #
+    # # Save the DataFrame to an Excel file
+    # excel_file_path = 'datapoints_12.xlsx'
+    # df.to_excel(excel_file_path, index=True)
+    #
+    # print(f"Datapoints have been successfully saved to {excel_file_path}")
 
-degrees = [sum(row) for row in adjacency_matrix]
-new_matrix = create_a_matrix(adjacency_matrix, degrees)
+    degrees = [sum(row) for row in adjacency_matrix]
+    new_matrix = create_a_matrix(adjacency_matrix, degrees)
 
-num_tries = 1
-num_cores = multiprocessing.cpu_count()
-
-
-def fun(matrix):
-    samplingset = random.sample([j for j in range(200)], k=int(0.8 * 200))
-    return get_consensus_innovation_MSE(iteration, datapoints, samplingset, matrix)
+    num_tries = 1
+    num_cores = multiprocessing.cpu_count()
 
 
-results = Parallel(n_jobs=num_cores)(delayed(fun)(new_matrix) for i in range(num_tries))
+    def fun(matrix):
+        samplingset = random.sample([j for j in range(200)], k=int(0.8 * 200))
+        return get_consensus_innovation_MSE(iteration, datapoints, samplingset, matrix)
 
-consensus_innovation_scores = defaultdict(list)
-for result in results:
-    consensus_innovation_scores['norm1'].append(result)
 
-total_values = [item['total'] for item in consensus_innovation_scores['norm1']]
+    results = Parallel(n_jobs=num_cores)(delayed(fun)(new_matrix) for i in range(num_tries))
 
-last_100_data = np.copy(total_values[0][900:1000])
+    consensus_innovation_scores = defaultdict(list)
+    for result in results:
+        consensus_innovation_scores['norm1'].append(result)
 
-print(f'consensus + innovation:',
-      '\n mean total MSE:', np.mean(last_100_data),
-      '\n std_dev total MSE:', np.std(last_100_data))
+    total_values = [item['total'] for item in consensus_innovation_scores['norm1']]
 
-x_total = np.arange(len(total_values[0]))
+    last_100_data = np.copy(total_values[0][900:1000])
 
-plt.semilogy(x_total, np.mean(total_values, axis=0), label='total')
-plt.title('Train')
+    print(f'consensus + innovation pout={0.01*i}:',
+          '\n mean total MSE:', np.mean(last_100_data),
+          '\n std_dev total MSE:', np.std(last_100_data))
+
+    if np.mean(last_100_data) < 100:
+        final_pout.append(0.01*i)
+        final_mean.append(np.mean(last_100_data))
+
+    # x_total = np.arange(len(total_values[0]))
+    #
+    # plt.semilogy(x_total, np.mean(total_values, axis=0), label='total')
+    # plt.title('Train')
+    # plt.show()
+    # plt.close()
+
+plt.semilogy(final_pout, final_mean)
+plt.title('weight=20, pout')
+plt.xlabel('pout')
+plt.ylabel('MSE')
 plt.show()
 plt.close()
-
-plt.figure(figsize=(8, 6))
-plt.imshow(new_matrix, cmap='binary', interpolation='none')
-plt.colorbar()
-plt.title('Adjacency Matrix Heatmap')
-plt.xlabel('Node Index')
-plt.ylabel('Node Index')
-plt.show()
